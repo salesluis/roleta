@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--text-light);
+}
+body{
+  background: var(--bg-body);  
+}
+img{
+  width: 100%;
+}

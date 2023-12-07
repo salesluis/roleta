@@ -1,0 +1,73 @@
+@import url('./global/global.css');
+@import url('./components/components.css');
+
+header{
+  display: flex;
+  justify-content: center;
+  margin: 18px auto;
+}
+.logo{
+  max-width: 300px;
+}
+
+h1{
+  text-align: center;
+  margin: 62px;
+  font-family: Inter;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.text-yellow{
+  color: var(--color-secondary);
+}
+
+.seta{
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  animation: arrow .5s infinite alternate;
+}
+@keyframes arrow {
+  from{
+    top: 10px;
+  }to{
+    top: 0px;
+  }
+}
+.roleta{
+   position: relative;
+   max-width: 500px;
+}
+.roleta-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.roleta.spin{
+  animation: spinning 3s ease-in-out forwards;
+}
+
+@keyframes spinning {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(930deg);
+  }
+}
+
+
+
+/* .js-animation{
+  opacity: 0;
+  transform: translate3d(0, 40px, 0);
+  transition: .4s;
+}
+.js-animation.animar{
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+} */
