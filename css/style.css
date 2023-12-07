@@ -7,7 +7,7 @@ header{
   margin: 18px auto;
 }
 .logo{
-  max-width: 300px;
+  width: 300px;
 }
 
 h1{
@@ -61,13 +61,12 @@ h1{
 }
 
 
-
-/* .js-animation{
-  opacity: 0;
-  transform: translate3d(0, 40px, 0);
-  transition: .4s;
+@media(max-width: 600px){
+  .logo{
+    width: 200px;
+  }
+  h1{
+    font-size: 1rem;
+    margin: 32px;
+  }
 }
-.js-animation.animar{
-  opacity: 1;
-  transform: translate3d(0, 0, 0);
-} */
