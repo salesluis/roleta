@@ -1,0 +1,35 @@
+.section-roleta{
+  display: none;
+}
+.section-roleta.ativo{
+  display: block;
+}
+
+.roleta{
+  display: flex;
+  margin: 0 auto;
+  max-width: 500px;
+  overflow: hidden;
+  position: relative;
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
+
+.section-roleta > .btn{
+  margin: 54px auto;
+}
+
+.roleta.spin{
+  animation: spinning 3s ease-in-out forwards;
+}
+
+@keyframes spinning {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(1320deg);
+  }
+}
+
+

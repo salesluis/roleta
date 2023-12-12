@@ -1,0 +1,35 @@
+.section-text {
+  display: none;
+}
+.section-text.ativo {
+  display: block;
+}
+.section-text.ativo h1 {
+  animation: textOpacity 500ms forwards;
+  font-size: 3rem;
+  margin:120px 4% 60px 4%;
+}
+.section-text.ativo p {
+  font-family: inter, sans-serif;
+  font-weight: 600;
+  line-height: 140%;
+  max-width: 40ch;
+  font-size: 1.8rem;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+  animation: textOpacity 1s forwards;
+}
+.section-text > .btn{
+  margin: 54px auto;
+}
+@keyframes textOpacity {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

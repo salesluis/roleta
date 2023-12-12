@@ -1,9 +1,10 @@
 :root{
-  --bg-body:#000B17;
-  --text-light:#fff;
+  --bg-body:linear-gradient(180deg, #000B17 23.23%, #03172F 52.19%, #002D65 122.8%);
+  --text-light:#ffffff;
+  --text-dark:#403900;
   --color-primary:#03172F;
   --color-secondary:#F9E638;
-  --button:#32C100
+  --button:#FFE500
 }
 
 
@@ -16,8 +17,22 @@
   padding:18px 55px ;
   border-radius: 8px;
   background: var(--button);
-  box-shadow: 0px 0px 12px 4px #3EF000;
+  animation: opacity 1s infinite alternate;
   cursor: pointer;
+  color: var(--text-dark);
   max-width: max-content;
+  position: absolute;
+  bottom: 5%;
+  left: 42%;
 }
 
+@keyframes opacity {
+  from{
+    box-shadow: 0px;
+  }to{
+    box-shadow: 0px 0px 12px 4px #FFD700;
+  }
+}
+.text-yellow{
+  color: var(--color-secondary);
+}
