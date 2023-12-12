@@ -2,7 +2,10 @@
   display: none;
 }
 .section-text.ativo {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .section-text.ativo h1 {
   animation: textOpacity 500ms forwards;
@@ -32,4 +35,8 @@
     opacity: 1;
     transform: translateY(0px);
   }
+}
+.presente-icon{
+  display: flex;
+  margin: 32px auto;
 }
