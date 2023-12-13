@@ -5,7 +5,7 @@
   display: block;
 }
 
-.roleta{
+.roleta-content{
   display: flex;
   margin: 0 auto;
   max-width: 500px;
@@ -13,6 +13,9 @@
   position: relative;
   border: 4px solid #fff;
   border-radius: 50%;
+}
+.roleta{
+  transform: rotate(180deg);
 }
 
 .section-roleta > .btn{
@@ -28,41 +31,31 @@
     transform: rotate(0deg);
   }
   100%{
-    transform: rotate(2525deg);
+    transform: rotate(2528deg);
   }
 }
 
 .circle{
   max-width: 80px;
   position: absolute;
-  top: 51%;
-  left: 49%;
-}
-@media(max-width:1300px){
-  .circle{
-  left: 47%;
-  }
+  top: 43%;
+  left: 44%;
 }
 
+
 @media(max-width:600px){
-  .roleta{
+  .roleta-content{
     width: 400px;
   }
-.circle{
-  top: 40%;
-  left: 45%;
-}
 }
 
 @media(max-width:500px){
-  .roleta{
+  .roleta-content{
     width: 300px;
   }
-.circle{
-  width: 50px;
-  top: 35%;
-  left: 46%;
-}
+  .circle{
+    width: 60px;
+  }
 }
 
 
