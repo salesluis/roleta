@@ -38,11 +38,32 @@
   top: 51%;
   left: 49%;
 }
-
-@media(max-width:510px){
-  .roleta{
-    margin: 0 5%;
+@media(max-width:1300px){
+  .circle{
+  left: 47%;
   }
 }
+
+@media(max-width:600px){
+  .roleta{
+    width: 400px;
+  }
+.circle{
+  top: 40%;
+  left: 45%;
+}
+}
+
+@media(max-width:500px){
+  .roleta{
+    width: 300px;
+  }
+.circle{
+  width: 50px;
+  top: 35%;
+  left: 46%;
+}
+}
+
 
 
