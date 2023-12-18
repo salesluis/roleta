@@ -1,10 +1,8 @@
 const btn = document.querySelector(".btn");
 const sectionText = document.querySelector(".section-text");
 
-function toSpin() {
-  const roleta = document.querySelector(".roleta");
-
   function spinning() {
+    const roleta = document.querySelector(".roleta");
     roleta.classList.add("spin");
     const audio = document.querySelector("audio");
     audio.play();
@@ -17,8 +15,10 @@ function toSpin() {
         link.href = "https://sshortly.net/dlspSo";
       });
     }, 9400);
+    setTimeout(function(){
+      const btnText = document.querySelector('.btn-text')
+      btnText.classList.add('ativo')
+    }, 13000)
   }
 
   btn.addEventListener("click", spinning);
-}
-toSpin();

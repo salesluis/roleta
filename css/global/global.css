@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   color: var(--text-light);
+  font-family: inter;
 }
 body{
   height: 100vh;

@@ -4,7 +4,13 @@
 .section-roleta.ativo{
   display: block;
 }
-
+.title{
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 32px 5%;
+  font-size: 2rem;
+}
 
 .roleta-content{
   display: flex;
@@ -51,6 +57,9 @@
     justify-content: center;
     align-items: center;
   }
+  .title{
+    font-size: 1.4rem;
+  }
   .roleta-content{
     width: 400px;
   }
@@ -59,7 +68,7 @@
 
 @media(max-width:500px){
   .roleta-content{
-    width: 200px;
+    width: 250px;
   }
   .circle{
     width: 40px;
