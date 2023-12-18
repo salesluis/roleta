@@ -8,7 +8,7 @@
   text-align: center;
   font-weight: 400;
   text-transform: uppercase;
-  margin: 32px 5%;
+  margin: 64px 5% 32px 5%;
   font-size: 2rem;
 }
 
@@ -67,6 +67,9 @@
 }
 
 @media(max-width:500px){
+  .title{
+    font-size: 1.1rem;
+  }
   .roleta-content{
     width: 250px;
   }

@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   gap: 12px;
-  margin:62px auto 0 auto;
+  margin:82px auto 0 auto;
   animation: textOpacity 400ms forwards;
   text-transform: uppercase;
   font-size: 1.5rem;
@@ -58,6 +58,9 @@
 
 
 @media(max-width:600px){
+  .title-content{
+  margin:150px auto 0 auto;
+  }
   .text-secondary{
     font-size: 1.4rem;
   }
@@ -83,7 +86,7 @@
 }
 @media(max-width:400px){
   .title-content{
-    margin:12px auto 0 auto;
+    margin:82px auto 0 auto;
     }
   .text-secondary{
     font-size: 1rem;
@@ -91,6 +94,6 @@
   }
   .section-text.ativo p{
   font-size: 1.2rem;
-margin-bottom: 120px;
+margin-bottom: 80px;
   }
 }
