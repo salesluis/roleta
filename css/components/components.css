@@ -17,7 +17,7 @@
   padding:18px 55px ;
   border-radius: 8px;
   background: var(--button);
-  animation: opacity 1s infinite alternate;
+  animation: opacity-border 1s infinite alternate;
   cursor: pointer;
   color: var(--text-dark);
   max-width: max-content;

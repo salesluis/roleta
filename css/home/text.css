@@ -59,7 +59,7 @@
 
 @media(max-width:600px){
   .title-content{
-  margin:120px auto 0 auto;
+  margin:100px auto 0 auto;
   }
   .text-secondary{
     font-size: 1.4rem;
@@ -86,7 +86,7 @@
 }
 @media(max-width:400px){
   .title-content{
-    margin:100px auto 0 auto;
+    margin:80px auto 0 auto;
     }
   .text-secondary{
     font-size: 1rem;
